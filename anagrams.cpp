@@ -1,3 +1,6 @@
+//Write a program which will accept a line of text and tell you if any of the words are made up of the same letters. Here is an example: How can you listen if you are not silent? //
+
+
 #include <stdio.h>
 #include <string.h>
 
