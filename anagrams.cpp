@@ -46,8 +46,8 @@ void main ()
    {
       if(s1[i] != s2[i]) 
       {    
-         printf("Given strings are not anagrams\n");
+         printf("Given words are not made up of the same letters\n");
       }
    }
-   printf("Given strings are anagrams!\n");
+   printf("Given words are made up of the same letters!\n");
 }
