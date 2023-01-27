@@ -40,6 +40,30 @@ int main()
 
 
 
+int main()
+{
+    int n;
+
+    float temp, root;
+
+    cout<< "Provide the number:"<<endl;
+    cin>>n;
+    
+    root = n / 2;
+    temp = 0;
+
+    while(root != temp)
+    {
+        
+        temp = root;
+        root = ( n/temp + temp) / 2;
+    }
+
+    cout<< "The square root is:" << root <<endl; 
+}
+
+
+
 
 
 
